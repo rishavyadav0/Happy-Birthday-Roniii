@@ -1,0 +1,35 @@
+body {
+    background-image: url("OIP (5).jpg"); /* Set background image */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the image covers the full screen */
+    background-position: center; /* Center the image */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font for birthday theme */
+}
+
+.countdown {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffcc00; /* Birthday-themed border */
+}
+
+.countdown h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #ff69b4; /* Pink color for birthday */
+}
+
+.countdown p {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.birthday-message {
+    font-size: 36px;
+    color: #ff4500; /* Orange color for birthday message */
+    margin-bottom: 20px;
+}
+
+/* Additional birthday-themed styles can be added here */
