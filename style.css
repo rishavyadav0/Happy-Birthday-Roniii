@@ -1,5 +1,5 @@
 body {
-    background-image: url("OIP (5).jpg"); /* Set background image */
+    background-image: url("wp2749853.jpg"); /* Set background image */
     background-repeat: no-repeat;
     background-size: cover; /* Ensure the image covers the full screen */
     background-position: center; /* Center the image */
@@ -8,7 +8,7 @@ body {
 
 .countdown {
     text-align: center;
-    background: white;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -32,4 +32,9 @@ body {
     margin-bottom: 20px;
 }
 
-/* Additional birthday-themed styles can be added here */
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    body {
+        background-image: url("OIP (5).jpg"); /* Change to mobile background image */
+    }
+}
